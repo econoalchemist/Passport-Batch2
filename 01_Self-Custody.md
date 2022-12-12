@@ -7,6 +7,37 @@ With great power comes great responsibility however, self-custody also means tha
 Passport Batch-2 is shipped in a nondescript white box. There will be a shipping label (peeled off for privacy reasons) and a blue tamper-evident seal on the outside of the box. The tamper-evident seal will be placed over the opening flap of the box and the seal will have a number on it that starts with `B799`, `B862`, or `B863`. The full-length unique numbers are not saved by Foundation Devices but the prefix is used to identify the production batch the device was manufactured in.
 
 * Privacy Tip: Consider using a PO Box and an alias to avoid connecting your personally identifiable information to Bitcoin related items.
+* Security Tip: If the security seal shows any signs of tampering, contact mailto:hello@foundationdevices.com
 
+<p align=center>
+  <img width=400 src=assets/unboxing00.jpg>
+  <img width=400 src=assets/unboxing02.jpg>
+</p>  
 
+Inside the shipping box is the device box, it should be wrapped in bubble packaging. 
+  
+<p align=center>
+  <img width=400 src=assets/unboxing03.jpg>
+  <img width=400 src=assets/unboxing05.jpg>
+</p>   
+
+Inside the device box you will find:
+
+- Passport Batch-2 Bitcoin hardware wallet
+- 8GB microSD card
+- USB-C to USB-C charging cable
+- microSD to Android port adaptor
+- microSD to iPhone port adaptor
+- Getting started litirature
+- Seed phrase and backup code card
+- Foundation Stickers
+
+<p align=center>
+  <img width=400 src=assets/unboxing07.jpg>
+  <img width=400 src=assets/unboxing08.jpg>
+  <img width=400 src=assets/unboxing09.jpg>
+  <img width=400 src=assets/unboxing10.jpg>
+  <img width=400 src=assets/unboxing11.jpg>
+  <img width=400 src=assets/unboxing12.jpg>
+</p>  
 
