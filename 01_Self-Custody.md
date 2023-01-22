@@ -59,7 +59,7 @@ This guide will cover how to download Envoy from the F-Droid repository on an An
 - Then click on the F-Droid icon. 
 
 <p align="center">
-  <img width="300" src="assets/download_02.png">
+  <img src="assets/download_02.png">
 </p>
 
 - You will be brought to the instruction page for downloading Envoy from F-Droid.
@@ -68,7 +68,7 @@ This guide will cover how to download Envoy from the F-Droid repository on an An
 - Then open your F-Droid app, click on `Settings` in the lower right-hand corner, then click on `Add additional sources of apps` under `Repositories` near the top of the menu. 
 
 <p align="center">
-  <img width="300" src="assets/download_03.png">
+  <img src="assets/download_03.png">
 </p>
 
 - You will be presented with a list of your currently available repositories. Click on the `+` sign in the upper right-hand corner. 
@@ -77,7 +77,7 @@ This guide will cover how to download Envoy from the F-Droid repository on an An
 - Once downloading is complete, click on `INSTALL`. 
 
 <p align="center">
-  <img width="300" src="assets/download_04.png">
+  <img src="assets/download_04.png">
 </p>
 
 - Once installed, the Android system will ask you if you want to install this app, click on `INSTALL`. 
@@ -85,7 +85,7 @@ This guide will cover how to download Envoy from the F-Droid repository on an An
 - You will be greeted with the introduction message.
 
 <p align="center">
-  <img width="300" src="assets/download_05.png">
+  <img src="assets/download_05.png">
 </p>
 
 ## Setting up Passport Batch 2
