@@ -89,3 +89,6 @@ This guide will cover how to download Envoy from the F-Droid repository on an An
 </p>
 
 ## Setting up Passport Batch 2
+The first step is to complete the Supply Chain Validation. This ensures that your device has been delivered to you as the manufacturer intended; authentic and unmodified.
+
+-  
