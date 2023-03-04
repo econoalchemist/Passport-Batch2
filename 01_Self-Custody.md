@@ -190,4 +190,43 @@ The seed phrase is a human readable representation of the initial entropy used t
   <img src="assets/seed_05.jpg">
 </p>
 
+Now you have an encrypted backup of your seed phrase to keep safe and secure in case you need to recover your wallet on another Passport in the future. Ensure you keep the backup code safe and secure as well because it is required to decrypt your backup. Storing the microSD card and the backup code in the same location kind of defeats the purpose since if they are found then an advasary could steal your bitcoin. If you want to save a plain text copy of your seed phrase so that you have the option to recover your wallet using the BIP39 word entry on a number of other wallets, you can fill these in on the included notecard as well. From the Passport Batch 2 home screen, navigate to the left for the Settings menu. Then navigate to `Advanced` > `View Seed Words`, and then acknowledge the warning prompt that you are about to display sensitive information.    
+
 ## Connecting Passport Batch 2 to the Envoy app
+Having your Passport Batch 2 connected to your Envoy app enables you to retreive the latest firmware, watch your account balances, connect to your own instance of an Electrum server, communicate over Tor, and more. Your private key information never leaves the Passport Batch 2, only the public information is shared with the Envoy app so that it can calculate receive addresses and monitor balances.  
+
+- On your mobile device, in the Envoy app, select `Connect an existing Passport`. 
+- On the next screen, select `Get Started`. 
+- On the next screen, select `Continue` and then your mobile device's camera should be initiated. 
+
+<p align="center">
+  <img src="assets/connect_01.png">
+</p>
+
+- On the Passport Batch 2, you should be at the prompt that says `Now, let's connect Passport with Envoy` after saving your backup. Select the check mark. 
+- On the next screen, select the chack mark to generate the QR code. 
+- Then scan the QR code using your mobile device. 
+
+<p align="center">
+  <img src="assets/connect_02.jpg">
+</p>
+
+- In the Envoy app, you should receive a confirmation that the connection was made successfully. Select `Validate receive address`. 
+- Then the Envoy app will display the first Bitcoin receive address so that you can confirm everything worked.
+
+<p align="center">
+  <img src="assets/connect_03.png">
+</p>
+
+- On the Passport Batch 2, select the `>` arrow to continue.
+- On the next screen, select the `>` arrow to display the receive address. 
+- Using the Passport Batch 2, scan the address QR code displayed on your mobile device. 
+- The Passport Batch 2 will search for the address and check if it is one that belongs to your seed. You should receive the large check mark symbol indicating that this is an address belonging to you. Select the small check mark. 
+- This completes the connection. Select the check mark.
+- Next you will receive a notification that the Passport Batch 2 has been configured successfully. Select the check mark to be brought to the home screen.  
+
+<p align="center">
+  <img src="assets/connect_04.jpg">
+</p>
+
+This completes the initial set up for your Passport Batch 2. From here, there are a number of features and configurations you can make that suit your unique needs best. The following section will compare the differences between Passport Batch 1 and Passport Batch 2. Then the final section will demonstrate a select advanced feature. 
