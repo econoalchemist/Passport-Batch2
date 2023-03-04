@@ -130,7 +130,7 @@ You can also enable security words which add a layer of protection in the event 
 - On the Envoy app, you can just select `Continue` when you see the prompt to enter a 6-12 digit PIN. The actual PIN set up will be carried out on the Passport Batch 2. 
 
 <p align="center">
-  <img src="assets/pin_01.png">
+  <img width="300" src="assets/pin_01.png">
 </p>
 
 - On the Passport Batch 2, use the `>` arrow when you see the prompt to set up your PIN, which should be the first prompt you get after the Supply Chain Validation procedure. 
