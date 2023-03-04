@@ -91,4 +91,30 @@ This guide will cover how to download Envoy from the F-Droid repository on an An
 ## Setting up Passport Batch 2
 The first step is to complete the Supply Chain Validation. This ensures that your device has been delivered to you as the manufacturer intended; authentic and unmodified.
 
--  
+-  Open the Envoy app on your mobile device.
+-  Select `Set up a new Passport`.
+-  Accept the Terms of Use.
+-  Select `Next`. You should see an animated QR code start cycling.
+
+<p align="center">
+  <img src="assets/verify_01.png">
+</p>
+
+
+- Power on your Passport Batch 2.
+- When prompted for how you would like to set up your passport, select `Envoy App`.
+- Then select `Continue on Envoy`.
+- Select the `>` arrow to initiate the Passport Batch 2 camera. 
+- Then scan the animated QR code on your mobile device. You should see the Passport Batch 2 start counting the percentage completed until 100% of the information is received. 
+
+<p align="center">
+  <img src="assets/verify_02.png">
+</p>
+
+- In the Envoy app, select `Next`. 
+- On the Passport Batch 2, select `>` for next and a QR code should appear. 
+- In the Envoy app, select `Continue` to initiate your mobile device's camera. 
+- Scan the QR code on the Passport Batch 2 with your mobile device. 
+- You should receive a notification in the Envoy app that your Passport Batch 2 is secure. If your device fails the Supply Chain Validation, it may have been been tampered with or swapped out with a malicious device while in transit to you. In the unlikely event of a failure, contact The Foundation team via email at <kbd>hello@foundationdevices.com</kbd>. If your Passport Supply Chain Validation was successful then select `Continue` in the Envoy app.  
+- On the Passport Batch 2, select `Passed`. 
+
