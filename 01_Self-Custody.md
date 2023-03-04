@@ -148,3 +148,46 @@ You can also enable security words which add a layer of protection in the event 
 <p align="center">
   <img src="assets/pin_03.jpg">
 </p>
+
+Next time you turn on your Passport Batch 2, you should be prompted for your PIN before being able to use the device. 
+
+## Generating Seed Phrase
+The seed phrase is a human readable representation of the initial entropy used to generate your Bitcoin private keys. Most commonly, seed phrases will be a list of 12 or 24 words. Backing up your seed phrase in a safe and secure way will enable you to access your bitcoin in the event your wallet is lost, stolen, destroyed, etc. So long as you have your seed phrase, you have access to your bitcoin. That also means anyone else who gains access to your seed phrase has access to your bitcoin. Take precautions to ensure you save your seed phrase in a safe and secure way. There are several methods ranging from encrypted microSD cards, paper backups, [QR codes](https://econoalchemist.github.io/SeedSigner/05_Seed-Backup.html), and [steel plates](https://www.econoalchemist.com/post/the-domino-bitcoin-steel-plate-backup) or [washers](https://www.econoalchemist.com/post/backup). Whichever method you choose, your seed phrase will work with a wide range of Bitcoin wallets. Many industry participants have implemented the [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) standard which defines how seed phrases work. This allows users to recover their bitcoin on a number of mobile, desktop, or hardware wallets regardless of which wallet they used to generate the seed phrase. Taking a picture or screenshot of your seed phrase is not recommended. 
+
+- You will probably be at the prompt on your Passport Batch 2 asking you to upgrade the firmware. Since the Passport Batch 2 has not been connected to the Envoy app yet, this step will be skipped at this point and will be revisted after the seed phrase is created. You can update the firmware using the microSD card at this point if you would like to do so before continuing on to create your seed phrase. 
+- If you skipped the firmware update for now, then select `Create New Seed` on the Passport Batch 2. 
+- You will be asked if you want to generate a new seed phrase now, select the check mark. 
+- You should see the Passport Batch 2 save the seed and then you will be notified that the new seed has been created and saved. 
+
+<p align="center">
+  <img src="assets/seed_01.jpg">
+</p>
+
+- Next, Passport will create and encrypted backup of your seed phrase and prepare to save it to the included microSD card. Select the `>` arrow.
+- Part of having an encrypted backup is having the code to decrypt it. Passport Batch 2 will generate this code and it will be required to to open your backup file in the future. Select the `>` arrow.  
+- Your Passport Batch 2 came with a perfferated note card, on one side of the perferation is space to write down your seed words and on the other side is space to write down your code for the encrypted backup. Foundation recommends writing down the backup code on this notecard and it is considered a safe procedure because physical access to the microSD card is required. Consider storing the notecard and the microSD card is separate locations. Select the `>` arrow. 
+
+<p align="center">
+  <img src="assets/seed_02.jpg">
+</p>
+
+- Your backup code will be displayed. Copy this down on your notecard. Double check your work then select the checkmark.
+- Passport will ask that you confirm your backup code was written down correctly by having you re-enter it. Select the check mark.
+- Enter your code in the blank spaces using the numeric key pad. 
+- Once entered, select the check mark. 
+- You should receive confirmation that your backup code was enetered correctly. If not, try again. 
+
+<p align="center">
+  <img src="assets/seed_03.jpg">
+  <img src="assets/seed_04.jpg">
+</p>
+
+- If you haven't done so already, insert your included microSD card into the Passport Batch 2. It never hurts to look at the microSD card on a desktop file explorer to ensure it is empty first. The Passport Batch 2 will alert you to insert the microSD card if you have not already done so. 
+- Select the cycle symbol if necessary and then the Passport Batch 2 will write the backup to the microSD card.
+- Then you will receive a notification that the backup is complete. 
+
+<p align="center">
+  <img src="assets/seed_05.jpg">
+</p>
+
+## Connecting Passport Batch 2 to the Envoy app
