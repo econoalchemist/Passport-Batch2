@@ -108,7 +108,7 @@ The first step is to complete the Supply Chain Validation. This ensures that you
 - Then scan the animated QR code on your mobile device. You should see the Passport Batch 2 start counting the percentage completed until 100% of the information is received. 
 
 <p align="center">
-  <img src="assets/verify_02.png">
+  <img src="assets/verify_02.jpg">
 </p>
 
 - In the Envoy app, select `Next`. 
@@ -118,3 +118,6 @@ The first step is to complete the Supply Chain Validation. This ensures that you
 - You should receive a notification in the Envoy app that your Passport Batch 2 is secure. If your device fails the Supply Chain Validation, it may have been been tampered with or swapped out with a malicious device while in transit to you. In the unlikely event of a failure, contact The Foundation team via email at <kbd>hello@foundationdevices.com</kbd>. If your Passport Supply Chain Validation was successful then select `Continue` in the Envoy app.  
 - On the Passport Batch 2, select `Passed`. 
 
+<p align="center">
+  <img src="assets/verify_03.png">
+</p>
