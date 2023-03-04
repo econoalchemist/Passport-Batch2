@@ -140,11 +140,11 @@ You can also enable security words which add a layer of protection in the event 
 - Then enter it again to confirm. 
 
 <p align="center">
-  <img src="assets/pin_02.png">
+  <img src="assets/pin_02.jpg">
 </p>
 
 - Next, the Passport Batch 2 will cycle through `Setting initial PIN`, `Logging in`, and finally you will receive a notice that the PIN was set successfully. 
 
 <p align="center">
-  <img src="assets/pin_03.png">
+  <img src="assets/pin_03.jpg">
 </p>
