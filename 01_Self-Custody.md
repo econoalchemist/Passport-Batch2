@@ -215,7 +215,7 @@ Having your Passport Batch 2 connected to your Envoy app enables you to retreive
 - Then the Envoy app will display the first Bitcoin receive address so that you can confirm everything worked.
 
 <p align="center">
-  <img src="assets/connect_03.png">
+  <img width="500" src="assets/connect_03.png">
 </p>
 
 - On the Passport Batch 2, select the `>` arrow to continue.
