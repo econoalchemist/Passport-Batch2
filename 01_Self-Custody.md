@@ -121,3 +121,30 @@ The first step is to complete the Supply Chain Validation. This ensures that you
 <p align="center">
   <img src="assets/verify_03.png">
 </p>
+
+## Setting a PIN number
+PIN numbers on the Passport Batch 2 can be between 6 and 12 digits in length. Using a PIN number that is easy to guess is not recommended. There is no way to recover a lost PIN number. In the event that an incorrect PIN number is entered into the Passport Batch 2 twentyone times, the device will self destruct and become permantly useless. If that occurs, your bitcoin is still safe so long as you have your seed phrase (covered in the next section), it just means the device itself is ruined.
+
+You can also enable security words which add a layer of protection in the event that your device is ever tampered with. If you enable 
+
+- On the Envoy app, you can just select `Continue` when you see the prompt to enter a 6-12 digit PIN. The actual PIN set up will be carried out on the Passport Batch 2. 
+
+<p align="center">
+  <img src="assets/pin_01.png">
+</p>
+
+- On the Passport Batch 2, use the `>` arrow when you see the prompt to set up your PIN, which should be the first prompt you get after the Supply Chain Validation procedure. 
+- Using the `>` arrow, acknowledge that there is no way to recover a lost PIN. You may want to consider writing your PIN down on paper or stamping it into metal and then storing it in a safe and secure location. 
+- Using the `>` arrow, acknowledge the warning to record your PIN somewhere safe.
+- Then using the numeric keys, enter your desired PIN number. 
+- Then enter it again to confirm. 
+
+<p align="center">
+  <img src="assets/pin_02.png">
+</p>
+
+- Next, the Passport Batch 2 will cycle through `Setting initial PIN`, `Logging in`, and finally you will receive a notice that the PIN was set successfully. 
+
+<p align="center">
+  <img src="assets/pin_03.png">
+</p>
