@@ -212,10 +212,11 @@ Having your Passport Batch 2 connected to your Envoy app enables you to retreive
 </p>
 
 - In the Envoy app, you should receive a confirmation that the connection was made successfully. Select `Validate receive address`. 
-- Then the Envoy app will display the first Bitcoin receive address so that you can confirm everything worked.
+- Then the Envoy app will display the first Bitcoin receive address so that you can confirm everything worked. Once scanned with the Passport Batch 2 and confirmed, select `Continue`. 
+- When finished with the steps below on the Passport Batch 2, you can select `Continue` in the Envoy app to confirm the address is valid and return to the home screen. 
 
 <p align="center">
-  <img width="500" src="assets/connect_03.png">
+  <img width="750" src="assets/connect_03.png">
 </p>
 
 - On the Passport Batch 2, select the `>` arrow to continue.
@@ -230,6 +231,35 @@ Having your Passport Batch 2 connected to your Envoy app enables you to retreive
 </p>
 
 ## Firmware
+Keeping the firmware up to date ensures that your Passport Batch 2 has the latest bug fixes, improvements, features, and security patches. However, updating the firmware is not mandatory, your Passport will still work but just won't have any updates. There are a few different ways to get the latest firmware, from the Foundation [website](https://docs.foundationdevices.com/firmware-update), from their [GitHub repo](https://github.com/Foundation-Devices/passport-firmware), or from the Envoy app. This guide will demonstrate the Envoy app method. As a security precaution, the Passport Batch 2 will only install firmware signed by 2 out of 4 possible Foundation developer keys. Whichever method you choose, you will be saving the firmware file to the microSD card and loading the update onto your Passport Batch 2 from there. This helps keep the device air-gapped. 
 
+Make sure you have your microSD card and included adaptor ready to plug into your mobile device. Also, you can always double check which firmware version your Passport Batch 2 has currently installed when you power the device on, it will show the firmware version number at the bottom of the screen during boot up. 
+
+- Insert the microSD card into the appropriate adaptor for your mobile device. 
+- Insert the adaptor into your mobile device.
+- A blue light should start flashing on the adaptor.
+- Open the Envoy app, you should see the latest firmware version number in the lower right-hand corner of the Passport card on the home screen. Press that firmware version number. 
+- On the next screen, press `Continue` to confirm you want to update the firmware. 
+- On the next screen press `Continue` to confirm you have connected the microSD card. 
+- Then Envoy will ask you where you would like to save the firmware. Navigate to the microSD card folder location. 
+- Then press `Save`. 
+- That should save the firmware file to your microSD card and bring you back to the Envoy app. Press `Finished` to return to the home page. 
+
+<p align="center">
+  <img src="assets/firmware_01.jpg">
+  <img src="assets/firmware_02.png">
+</p>
+
+- Next, power on your Passport Batch 2. Enter your PIN to unlock it.
+- Insert the microSD card. 
+- Navigate to the settings page and scroll down to `Firmware`.
+- On the next screen, select `Update Firmware`.
+- On the next screen, scroll down to the firmware `.bin` file and select the check mark.
+- Passport Batch 2 will ask you to confirm you want to install the firmware update and display the version number. Confirm by selecting the check mark. 
+- Passport Batch 2 will cycle through the update and then reboot itself.  
+
+<p align="center">
+  <img src="assets/firmware_03.jpg">
+</p> 
 
 This completes the initial set up for your Passport Batch 2. From here, there are a number of features and configurations you can make that suit your unique needs best. The following section will compare the differences between Passport Batch 1 and Passport Batch 2. Then the final section will demonstrate a select advanced feature. 
