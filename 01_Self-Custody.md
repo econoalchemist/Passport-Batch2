@@ -262,4 +262,4 @@ Make sure you have your microSD card and included adaptor ready to plug into you
   <img src="assets/firmware_03.jpg">
 </p> 
 
-This completes the initial set up for your Passport Batch 2. From here, there are a number of features and configurations you can make that suit your unique needs best. The following section will compare the differences between Passport Batch 1 and Passport Batch 2. Then the final section will demonstrate a select advanced feature. 
+This completes the initial set up for your Passport Batch 2. From here, there are a number of features and configurations you can make that suit your unique needs best. The following section will compare the differences between Passport Founders Edition and Passport Batch 2. Then the final section will demonstrate a select advanced feature. 
