@@ -59,7 +59,7 @@ This guide will cover how to download Envoy from the F-Droid repository on an An
 - Then click on the F-Droid icon. 
 
 <p align="center">
-  <img src="assets/download_02.png">
+  <img width="750" src="assets/download_02.png">
 </p>
 
 - You will be brought to the instruction page for downloading Envoy from F-Droid.
@@ -85,7 +85,7 @@ This guide will cover how to download Envoy from the F-Droid repository on an An
 - You will be greeted with the introduction message.
 
 <p align="center">
-  <img src="assets/download_05.png">
+  <img width="750" src="assets/download_05.png">
 </p>
 
 ## Supply Chain Validation
