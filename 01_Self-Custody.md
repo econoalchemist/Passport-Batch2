@@ -50,7 +50,7 @@ This guide will cover how to download Envoy from the F-Droid repository on an An
 - Click on the device you are setting up. In this case, Passport Batch 2.
 
 <p align=center>
-  <img src="assets/download_01.png">
+  <img width="500" src="assets/download_01.png">
 </p>
 
  
