@@ -125,7 +125,7 @@ The first step is to complete the Supply Chain Validation. This ensures that you
 ## PIN number
 PIN numbers on the Passport Batch 2 can be between 6 and 12 digits in length. Using a PIN number that is easy to guess is not recommended. There is no way to recover a lost PIN number. In the event that an incorrect PIN number is entered into the Passport Batch 2 twentyone times, the device will self destruct and become permantly useless. If that occurs, your bitcoin is still safe so long as you have your seed phrase (covered in the next section), it just means the device itself is ruined.
 
-You can also enable security words which add a layer of protection in the event that your device is ever tampered with. If you enable 
+You can also enable security words which add a layer of protection in the event that your device is ever tampered with. If you enable security words, you will enter your PIN in two parts, a prefix and suffix. After entering the prefix, you will be presented with two English words, for example "moment auction". Because of the way these words are generated, if anything has been tampered with on your Passport hardware or software then these words will be different than the ones you were expecting. If the words are the ones you were expecting then you enter your PIN suffix and complete the login process. 
 
 - On the Envoy app, you can just select `Continue` when you see the prompt to enter a 6-12 digit PIN. The actual PIN set up will be carried out on the Passport Batch 2. 
 
