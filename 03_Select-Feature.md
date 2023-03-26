@@ -6,11 +6,160 @@ Passport supports Whirlpool accounts and this section will demonstrate how to se
 ## Hot Wallet
 This guide assumes you have already installed Sparrow Wallet on your preferred desktop. If you haven't done so already, navigate to the [Sparrow Download page](https://www.sparrowwallet.com/download/) for detailed instructions. 
 
-Once you have your Sparrow Wallet application installed, open it and navigate to `File` > `New Wallet`.
+Once you have your Sparrow Wallet application installed, open it and navigate to `File` > `New Wallet`:
 
 <p align="center">
   <img src="assets/whirlpool_01.png">
 </p>
 
+Then name your new wallet and click on `Create Wallet`:
 
+<p align="center">
+  <img src="assets/whirlpool_02.png">
+</p>
             
+Next you will have the opportunity to adjust a few settings. Unless you have a good reason to change these settings and you know exactly what you are doing then it is probably a good idea to just leave the Policy Type and Script Type and Script Policy Descriptor in their defaults as demonstrated here. Then click on `New or Imported Software Wallet`:
+
+<p align="center">
+  <img src="assets/whirlpool_03.png">
+</p>
+
+A window will pop-up, click on the drop down menu in the upper right-hand corner to select the number of words you want to use for your hot wallet's seed phrase (also known as mnemonic phrase):
+
+<p align="center">
+  <img src="assets/whirlpool_04.png">
+</p>
+
+A 12-word seed phrase was chosen for this demonstration. Once you have made your selection, the corresponding number of blank boxes will appear in the pop-up window. Click on `Generate New` and Sparrow Wallet will generate a random seed phrase:
+
+<p align="center">
+  <img src="assets/whirlpool_05.png">
+  <img src="assets/whirlpool_06.png">
+</p>
+
+You can add a passphrase or leave that field blank. This is kind of like having a 13th or 25th word added to your seed phrase that only you know. There is no way to recover a lost or forgotten passphrase and this will be necessary to access your bitcoin going forward if you decide to use it. Make sure to write down your seed phrase words in order and keep them safe. Also write down your passphrase if you decided to use one. Consider keeping your seed phrase and passphrase separate from each other to help prevent loss of funds in the event your secrets are discovered. Writing this information down in a notebook or stamping it into metal to protect it against environmental hazards are common ways Bitcoiners keep their backups safe and secure. Anyone who gains access to this information will be able to steal your bitcoin, so make sure you keep it safe. Double checking your back information is a good way to ensure you have copied it all down correctly.  
+
+Once you are ready, click on `Confirm Backup...`, then you will be asked if you have written this information down. When you click on `Re-enter Words...` you will then prove you have written your seed phrase down correctly by entering the words in order. 
+
+<p align="center">
+  <img src="assets/whirlpool_07.png">
+</p>
+
+If you make a spelling mistake while entering your words, the dialog box will turn red to get your attention, for example, word #9 below should be "metal":
+
+<p align="center">
+  <img src="assets/whirlpool_08.png">
+</p>
+
+Once everything looks good and you see the green check mark indicating a valid checksum, then click on `Create Keystore`:
+
+<p align="center">
+  <img src="assets/whirlpool_09.png">
+</p>
+
+Then click on `Import Keystore` in the upper right-hand corner:
+
+<p align="center">
+  <img src="assets/whirlpool_10.png">
+</p>
+
+Then you will be presented with a summary of your new wallet's settings. If you used a passphrase, make sure you write down the Master Finger print along with your passphrase so you can confirm you entered it correctly in the future. If everything looks good then click on `Apply`.
+
+<p align="center">
+  <img src="assets/whirlpool_11.png">
+</p>
+
+You will then be asked if you want to add a password. This password is optional but it will encrypt your wallet file so that if anyone gains access to your desktop computer and they attempt to open your wallet file, then they will need this password.
+
+<p align="center">
+  <img src="assets/whirlpool_12.png">
+</p>
+
+Now that you have your hot wallet created, you can initiate the Whirlpool accounts from the Settings tab where it says `Add Account...`:
+
+<p align="center">
+  <img src="assets/whirlpool_13.png">
+</p>
+
+You will be presented with a list of accounts you can add; at the bottom of that list select `Whirlpool Accounts`:
+
+<p align="center">
+  <img src="assets/whirlpool_14.png">
+</p>
+
+Then select `OK`:
+
+<p align="center">
+  <img src="assets/whirlpool_15.png">
+</p>
+
+You will notice now that several tabs have appeared along the left-hand side of the user interface. These are the four accounts used to make Whirlpool work. The first one is the deposit account where you will want to send bitcoin that you want to CoinJoin. From the Deposit tab you can click on the Receive sub-tab to display a QR code for one of your receiving addresses and you can send bitcoin to it. 
+
+<p align="center">
+  <img src="assets/whirlpool_16.png">
+</p>
+
+Once you have made one or more deposits to your hot wallet, you can click on the UTXOs sub-tab to see your available outputs. Select the ones you want to CoinJoin or use the `Select All` option to use them all. Just keep in mind that selecting all will link all of these UTXOs together on-chain in the next step prior to them being CoinJoined, if you don't want them linked on-chain then just mix one at a time. 
+
+<p align="center">
+  <img src="assets/whirlpool_17.png">
+</p>
+
+Once you have your selection made, click on `Mix Selected`:
+
+<p align="center">
+  <img src="assets/whirlpool_18.png">
+</p>
+
+A window will pop-up and if you have an SCODE for reduced coordinator fees then you can enter it here. Then you can select your transaction priority or in other words the amount you are willing to spend on mining fees. Once you have these options set, click on `Next`:
+
+<p align="center">
+  <img src="assets/whirlpool_19.png">
+</p>
+
+Then you can choose the pool size you want to join. There are four sizes to choose from, the 100,000 sat pool size was used in this demonstration which will create 20 UTXOs that are all 100,000 sats each. The coordinator fee for this is 5,000 sats. Click on `Preview Premix` once ready:
+
+<p align="center">
+  <img src="assets/whirlpool_20.png">
+</p>
+
+Then you will see a summary of the transaction you just constructed. This transaction is called "tx0", you will notice that all of the selected inputs of various sizes and from various addresses are consumed in this transaction and 20 like-sized outputs are created. These like-sized outputs from tx0 will be used as eligiable inputs to Whirlpool CoinJoin transactions. There are three other outputs in a tx0 as well; the coordinator fee, the toxic change, and the miners fee. If everything looks good then click on `Broadcast Premix Transaction`:
+
+<p align="center">
+  <img src="assets/whirlpool_21.png">
+</p>
+
+Then your wallet will send your transaction to the Bitcoin network:
+
+<p align="center">
+  <img src="assets/whirlpool_22.png">
+</p>
+
+From the Deposit tab and the Transactions sub-tab, you will be able to see that the bitcoin you deposited to this account has been sent out: 
+
+<p align="center">
+  <img src="assets/whirlpool_23.png">
+</p>
+
+Then if you click on the Premix tab and the Transactions sub-tab you will see the bitcoin from your Deposit account is now in your Premix account:
+
+<p align="center">
+  <img src="assets/whirlpool_24.png">
+</p>
+
+So long as your wallet is connected to the internet then your available like-sized outputs in your Premix account will be registered as eligable inputs for the coordinator to use in CoinJoin rounds. As more participants add liquidity, more of your Premix outputs will be CoinJoined. After going through a CoinJoin round, each UTXO will appear in your Postmix account, which you can view from the Postmix tab and Transactions sub-tab. So long as you leave your wallet open and connected, the UTXOs in your Postmix account will remain available as eligable inputs to CoinJoin rounds as free-riders where they get mixed again and again with no added fees to you:
+
+<p align="center">
+  <img src="assets/whirlpool_25.png">
+</p>
+
+The Toxic Change from tx0 is sent to your Badbank account which you can view from the Badbank tab and transactions sub-tab. You want to be cautious about how you handle these outputs because they are linked on-chain to any inputs used in the related tx0 they came from. For example, don't send some Whirlpool outputs and some toxic change to the same address because that would undo the anonymity benefits gained by using Whirlpool. 
+
+<p align="center">
+  <img src="assets/whirlpool_26.png">
+</p>
+
+
+
+
+
