@@ -27,7 +27,7 @@ The screen on the Passport Batch 2 is a high-resolution, color IPS display bound
 </p> 
 
 ## Batteries
-Passport Batch 2 features a rechargable and removable lithium ion battery with a 1,200 mAh rating. The Passport Founders Edition features two AAA batteries. The lithium ion battery has a much greater battery life. Both Passports feature a removable magnetic back piece to quickly access the batteries. 
+Passport Batch 2 features a rechargeable and removable lithium ion battery with a 1,200 mAh rating. The Passport Founders Edition features two AAA batteries. The lithium ion battery has a much greater battery life. Both Passports feature a removable magnetic back piece to quickly access the batteries. 
 
 <p align="center">
   <img src="assets/compare_05.jpg">
