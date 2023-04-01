@@ -1,5 +1,5 @@
 # Self-Custody Made Simple
-Self-custody means that you are in control of your private keys, this is how you maintain unrestricted access to your bitcoin. By extension, unrestricted access to your bitcoin means that you can send or receive bitcoin with anyone in the world for any reason at anytime. You don't need anyone's permission, you won't be held against any financial instititution's moral standards, and nobody can stop you from making the transactions that you want to make. 
+Self-custody means that you are in control of your private keys, this is how you maintain unrestricted access to your bitcoin. By extension, unrestricted access to your bitcoin means that you can send or receive bitcoin with anyone in the world for any reason at anytime. You don't need anyone's permission, you won't be held against any financial institution's moral standards, and nobody can stop you from making the transactions that you want to make. 
 
 With great power comes great responsibility however, self-custody also means that you are taking radical responsibility of your bitcoin. You and you alone are responsible for managing your private keys in a way that you can access them but not your adversaries. There is no 1-800 help line, there is no reversing transactions, and there is no one that can help you recover lost or forgotten information. This may sound intimidating or complicated but tools like the Foundation Passport Batch 2 make self-custody very simple and easy to manage. 
 
@@ -42,7 +42,7 @@ Inside the device box you will find:
 </p>  
 
 ## Downloading Envoy
-[Envoy](https://foundationdevices.com/envoy/) is a companion app for the Passport Batch 2. This app is available for iPhone or Android and enables a secure guided setup experience for your Passport Batch 2. You can also use it to install the latest firmware updates from your mobile device using the included microSD adaptors. The security validation to ensure your Passport Batch 2 has not been tampored with in transit can also be completed from the Envoy app. There is a beginner-friendly Bitcoin wallet built into Envoy that enables you to easily receive bitcoin to your Passport Batch 2. You can also create transactions in Envoy ready to sign with your Passport Batch 2 using the QR code communications, all while your private keys remain secured on the Passport Batch 2. Envoy connects to the internet via [Tor](https://www.torproject.org/) by default. 
+[Envoy](https://foundationdevices.com/envoy/) is a companion app for the Passport Batch 2. This app is available for iPhone or Android and enables a secure guided setup experience for your Passport Batch 2. You can also use it to install the latest firmware updates from your mobile device using the included microSD adapters. The security validation to ensure your Passport Batch 2 has not been tampered with in transit can also be completed from the Envoy app. There is a beginner-friendly Bitcoin wallet built into Envoy that enables you to easily receive bitcoin to your Passport Batch 2. You can also create transactions in Envoy ready to sign with your Passport Batch 2 using the QR code communications, all while your private keys remain secured on the Passport Batch 2. Envoy connects to the internet via [Tor](https://www.torproject.org/) by default. 
 
 This guide will cover how to download Envoy from the F-Droid repository on an Android mobile device. The cool thing about F-Droid is that you can get apps from it without the need for a Google Play Store or Apple App Store account. The [F-Droid security model](https://f-droid.org/docs/Security_Model/) enforces that all apps have a valid signature over the entire contents of the Android Package (APK file) so you know you are getting the app intended for you by the developers who control the signing key of the repository you are using. 
 
@@ -123,7 +123,7 @@ The first step is to complete the Supply Chain Validation. This ensures that you
 </p>
 
 ## PIN number
-PIN numbers on the Passport Batch 2 can be between 6 and 12 digits in length. Using a PIN number that is easy to guess is not recommended. There is no way to recover a lost PIN number. In the event that an incorrect PIN number is entered into the Passport Batch 2 twentyone times, the device will self destruct and become permantly useless. If that occurs, your bitcoin is still safe so long as you have your seed phrase (covered in the next section), it just means the device itself is ruined.
+PIN numbers on the Passport Batch 2 can be between 6 and 12 digits in length. Using a PIN number that is easy to guess is not recommended. There is no way to recover a lost PIN number. In the event that an incorrect PIN number is entered into the Passport Batch 2 twenty-one times, the device will self destruct and become permanently useless. If that occurs, your bitcoin is still safe so long as you have your seed phrase (covered in the next section), it just means the device itself is ruined.
 
 You can also enable security words which add a layer of protection in the event that your device is ever tampered with. If you enable security words, you will enter your PIN in two parts, a prefix and suffix. After entering the prefix, you will be presented with two English words, for example "moment auction". Because of the way these words are generated, if anything has been tampered with on your Passport hardware or software then these words will be different than the ones you were expecting. If the words are the ones you were expecting then you enter your PIN suffix and complete the login process. 
 
@@ -154,7 +154,7 @@ Next time you turn on your Passport Batch 2, you should be prompted for your PIN
 ## Seed Phrase
 The seed phrase is a human readable representation of the initial entropy used to generate your Bitcoin private keys. Most commonly, seed phrases will be a list of 12 or 24 words. Backing up your seed phrase in a safe and secure way will enable you to access your bitcoin in the event your wallet is lost, stolen, destroyed, etc. So long as you have your seed phrase, you have access to your bitcoin. That also means anyone else who gains access to your seed phrase has access to your bitcoin. Take precautions to ensure you save your seed phrase in a safe and secure way. There are several methods ranging from encrypted microSD cards, paper backups, [QR codes](https://econoalchemist.github.io/SeedSigner/05_Seed-Backup.html), and [steel plates](https://www.econoalchemist.com/post/the-domino-bitcoin-steel-plate-backup) or [washers](https://www.econoalchemist.com/post/backup). Whichever method you choose, your seed phrase will work with a wide range of Bitcoin wallets. Many industry participants have implemented the [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) standard which defines how seed phrases work. This allows users to recover their bitcoin on a number of mobile, desktop, or hardware wallets regardless of which wallet they used to generate the seed phrase. Taking a picture or screenshot of your seed phrase is not recommended. 
 
-- You will probably be at the prompt on your Passport Batch 2 asking you to upgrade the firmware. Since the Passport Batch 2 has not been connected to the Envoy app yet, this step will be skipped at this point and will be revisted after the seed phrase is created. You can update the firmware using the microSD card at this point if you would like to do so before continuing on to create your seed phrase. 
+- You will probably be at the prompt on your Passport Batch 2 asking you to upgrade the firmware. Since the Passport Batch 2 has not been connected to the Envoy app yet, this step will be skipped at this point and will be revisited after the seed phrase is created. You can update the firmware using the microSD card at this point if you would like to do so before continuing on to create your seed phrase. 
 - If you skipped the firmware update for now, then select `Create New Seed` on the Passport Batch 2. 
 - You will be asked if you want to generate a new seed phrase now, select the check mark. 
 - You should see the Passport Batch 2 save the seed and then you will be notified that the new seed has been created and saved. 
@@ -165,17 +165,17 @@ The seed phrase is a human readable representation of the initial entropy used t
 
 - Next, Passport will create and encrypted backup of your seed phrase and prepare to save it to the included microSD card. Select the `>` arrow.
 - Part of having an encrypted backup is having the code to decrypt it. Passport Batch 2 will generate this code and it will be required to to open your backup file in the future. Select the `>` arrow.  
-- Your Passport Batch 2 came with a perfferated note card, on one side of the perferation is space to write down your seed words and on the other side is space to write down your code for the encrypted backup. Foundation recommends writing down the backup code on this notecard and it is considered a safe procedure because physical access to the microSD card is required. Consider storing the notecard and the microSD card is separate locations. Select the `>` arrow. 
+- Your Passport Batch 2 came with a perforated note card, on one side of the perforation is space to write down your seed words and on the other side is space to write down your code for the encrypted backup. Foundation recommends writing down the backup code on this note-card and it is considered a safe procedure because physical access to the microSD card is required. Consider storing the note-card and the microSD card is separate locations. Select the `>` arrow. 
 
 <p align="center">
   <img src="assets/seed_02.jpg">
 </p>
 
-- Your backup code will be displayed. Copy this down on your notecard. Double check your work then select the checkmark.
+- Your backup code will be displayed. Copy this down on your note-card. Double check your work then select the check-mark.
 - Passport will ask that you confirm your backup code was written down correctly by having you re-enter it. Select the check mark.
 - Enter your code in the blank spaces using the numeric key pad. 
 - Once entered, select the check mark. 
-- You should receive confirmation that your backup code was enetered correctly. If not, try again. 
+- You should receive confirmation that your backup code was entered correctly. If not, try again. 
 
 <p align="center">
   <img src="assets/seed_03.jpg">
@@ -190,10 +190,10 @@ The seed phrase is a human readable representation of the initial entropy used t
   <img src="assets/seed_05.jpg">
 </p>
 
-Now you have an encrypted backup of your seed phrase to keep safe and secure in case you need to recover your wallet on another Passport in the future. Ensure you keep the backup code safe and secure as well because it is required to decrypt your backup. Storing the microSD card and the backup code in the same location kind of defeats the purpose since if they are found then an advasary could steal your bitcoin. If you want to save a plain text copy of your seed phrase so that you have the option to recover your wallet using the BIP39 word entry on a number of other wallets, you can fill these in on the included notecard as well. From the Passport Batch 2 home screen, navigate to the left for the Settings menu. Then navigate to `Advanced` > `View Seed Words`, and then acknowledge the warning prompt that you are about to display sensitive information.    
+Now you have an encrypted backup of your seed phrase to keep safe and secure in case you need to recover your wallet on another Passport in the future. Ensure you keep the backup code safe and secure as well because it is required to decrypt your backup. Storing the microSD card and the backup code in the same location kind of defeats the purpose since if they are found then an adversary could steal your bitcoin. If you want to save a plain text copy of your seed phrase so that you have the option to recover your wallet using the BIP39 word entry on a number of other wallets, you can fill these in on the included note-card as well. From the Passport Batch 2 home screen, navigate to the left for the Settings menu. Then navigate to `Advanced` > `View Seed Words`, and then acknowledge the warning prompt that you are about to display sensitive information.    
 
 ## Connecting to Envoy
-Having your Passport Batch 2 connected to your Envoy app enables you to retreive the latest firmware, watch your account balances, connect to your own instance of an Electrum server, communicate over Tor, and more. Your private key information never leaves the Passport Batch 2, only the public information is shared with the Envoy app so that it can calculate receive addresses and monitor balances.  
+Having your Passport Batch 2 connected to your Envoy app enables you to retrieve the latest firmware, watch your account balances, connect to your own instance of an Electrum server, communicate over Tor, and more. Your private key information never leaves the Passport Batch 2, only the public information is shared with the Envoy app so that it can calculate receive addresses and monitor balances.  
 
 - On your mobile device, in the Envoy app, select `Connect an existing Passport`. 
 - On the next screen, select `Get Started`. 
@@ -204,7 +204,7 @@ Having your Passport Batch 2 connected to your Envoy app enables you to retreive
 </p>
 
 - On the Passport Batch 2, you should be at the prompt that says `Now, let's connect Passport with Envoy` after saving your backup. Select the check mark. 
-- On the next screen, select the chack mark to generate the QR code. 
+- On the next screen, select the check-mark to generate the QR code. 
 - Then scan the QR code using your mobile device. 
 
 <p align="center">
