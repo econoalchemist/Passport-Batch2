@@ -4,7 +4,7 @@ Whirlpool is a zero-link CoinJoin implementation supported by Samourai Wallet on
 Passport supports Whirlpool accounts and this section will demonstrate how to setup and use this feature on Bitcoin Testnet. All the steps are the same for Bitcoin Mainnet. There will be two wallets used in this demonstration; the first is Sparrow Wallet acting as the hot wallet which is the wallet where the CoinJoin transactions will originate from, the second is Passport Batch 2 acting as the cold wallet where the outputs from the hot wallet CoinJoins will be deposited. Using this technique offers a couple benefits. First, each deposit to the Passport Batch 2 will look like every other CoinJoin output to external observers on-chain and therefore no one except for you will know those UTXOs are now in cold storage. So as other CoinJoin participants continue mixing the other UTXOs from your CoinJoin transactions, the forward-looking anonimity set of your UTXOs in cold storage continues to grow. Another benefit is that the Whirlpool account on Passport was designed in such a way that you can import it to a hot wallet at anytime in the future and continue mixing those UTXOs as free-riders in Whirlpool thus saving yourself from paying the coordinator fees a second time. Understand though that importing the Whirlpool account to a hot wallet exposes the seed to an internet connected device and therefore it is recommended to use a seperate seed on your Passport for any accounts you plan on doing this with.
 
 ## Hot Wallet
-This guide assumes you have already installed Sparrow Wallet on your preferred desktop. If you haven't done so already, navigate to the [Sparrow Download page](https://www.sparrowwallet.com/download/) for detailed instructions. 
+This guide assumes you have already installed Sparrow Wallet on your preferred desktop. If you haven't done so already, navigate to the [Sparrow Download page](https://www.sparrowwallet.com/download/) for detailed instructions. Consider your options for connecting to a public node, your own Bitcoin Core node, or your own private Electrum server carefully.  
 
 Once you have your Sparrow Wallet application installed, open it and navigate to `File` > `New Wallet`:
 
@@ -159,7 +159,88 @@ The Toxic Change from tx0 is sent to your Badbank account which you can view fro
   <img src="assets/whirlpool_26.png">
 </p>
 
+## Cold Wallet
+Now that you have your hot wallet established and some bitcoin being CoinJoined in Whirlpool, you can set up the cold wallet extension on your Passport Batch 2. This will be the account you are sending your CoinJoined outputs to for long term cold storage. Using a separate seed from your primary cold storage seed for this process is recommended. If you want to import it to a hot wallet at anytime in the future and continue mixing those UTXOs as free-riders it will expose the seed to an internet connected device.
 
+- Power on your Passport Batch 2 and log into it.
+- From the main menu navigate to `Extensions`.
+- Then toggle on `Postmix`.
+- With the right arrow control, navigate over to the newly added Postmix account and scroll down to `Connect Wallet`.
 
+<p align="center">
+  <img src="assets/whirlpool_27.jpg">
+</p>
 
+- From the list of available wallets, select your choice (Sparrow Wallet in this case).
+- Select the `Single-sig` signature type. 
+- Select `QR Code`.
+- Follow the prompt telling you this is going to display a QR code by selecting the `>` arrow.
+- Then an animated QR code will start flashing. 
 
+<p align="center">
+  <img src="assets/whirlpool_28.jpg">
+</p>
+
+Now you are ready to initiate the connection process in Sparrow Wallet. 
+- Select `File` > `New Wallet`:
+
+<p align="center">
+  <img src="assets/whirlpool_29.png">
+</p>
+
+- Then name your new wallet and click on `Create Wallet`: 
+
+<p align="center">
+  <img src="assets/whirlpool_30.png">
+</p>
+
+- Next, you can leave the defaults for the policy type and script type but select `Airgapped Hardware Wallet` for the `Keystore 1` selection: 
+
+<p align="center">
+  <img src="assets/whirlpool_31.png">
+</p>
+
+A pop-up window will appear, select the `Scan...` option on the Passport line:
+
+<p align="center">
+  <img src="assets/whirlpool_32.png">
+</p>
+
+Sparrow Wallet will launch your webcam then hold the animated QR code from your Passport Batch 2 infront of your webcam:
+
+<p align="center">
+  <img src="assets/whirlpool_33.png">
+</p>
+
+Once all the information is captured, Sparrow Wallet will display a summary of the watch-only wallet you are importing. If all the details look correct, then select `Apply`. You will be prompted for a password if you want to optionally encrypt this wallet file on your computer. You have the option to verify an address with your Passport Batch 2 for extra assurance. 
+
+<p align="center">
+  <img src="assets/whirlpool_34.png">
+</p>
+
+Now, with both your hot wallet and watch-only wallet open in Sparrow Wallet, you can navigate back over to your hot wallet tab and point it to your watch-only wallet so it sends Whirlpool outputs there. 
+
+- In your hot wallet, navigate to the `Postmix` tab and `UTXOs` subtab.
+- At the bottom of the screen, select `Mix to...`:
+
+<p align="center">
+  <img src="assets/whirlpool_35.png">
+</p>
+
+A pop-up dialog will appear, select your watch-only wallet as the mix-to wallet and then set the minimum number of mixes you desire each UTXO to receive before it is sent to cold storage:
+
+<p align="center">
+  <img src="assets/whirlpool_36.png">
+</p>
+
+Once your UTXOs have gon through some CoinJoin rounds, they will start showing up in your watch-only wallet as they are deposited to cold storage. Make sure to leave your hot wallet open and connected to the internet to get continuous CoinJoin rounds. 
+
+<p align="center">
+  <img src="assets/whirlpool_37.png">
+</p>
+
+You can also monitor your Passport Batch 2 Postmix account from the Envoy app. Just like with connecting your primary wallet, simply select `Connect Wallet` from the Postmix account page on your Passport Batch 2 and then go through the animated QR code connection process using your Envoy app. 
+
+<p align="center">
+  <img width="400" src="assets/whirlpool_38.png">
+</p>
