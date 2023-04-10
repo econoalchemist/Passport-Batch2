@@ -166,7 +166,7 @@ The seed phrase is a human readable representation of the initial entropy used t
 
 - Next, Passport will create and encrypted backup of your seed phrase and prepare to save it to the included microSD card. Select the `>` arrow.
 - Part of having an encrypted backup is having the code to decrypt it. Passport will generate this code and it will be required to to open your backup file in the future. Select the `>` arrow.  
-- Your Passport came with a perforated note card, on one side of the perforation is space to write down your seed words and on the other side is space to write down your code for the encrypted backup. Foundation recommends writing down the backup code on this note-card and it is considered a safe procedure because physical access to the microSD card is required. Consider storing the note-card and the microSD card is separate locations. Select the `>` arrow. 
+- Your Passport came with a perforated note card, on one side of the perforation is space to write down your seed words and on the other side is space to write down your code for the encrypted backup. Foundation recommends writing down the backup code on this note-card and it is considered a safe procedure because physical access to the microSD card is required. Consider storing the note-card and the microSD card in separate locations. Select the `>` arrow. 
 
 * For a more in-depth article on encrypted backups, check out [this](https://foundationdevices.com/2023/01/why-we-love-encrypted-microsd-backups/) resource. 
 
