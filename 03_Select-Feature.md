@@ -247,4 +247,4 @@ You can also monitor your Passport Postmix account from the Envoy app. Just like
 
 You can create transactions to spend from your Postmix account using the Envoy app and then you can sign those transactions using the QR code method. 
 
-This concludes the select feature section. In this guide you were introduced to Passport and shown the unboxing, supply chain validation, how to download the Envoy companion app, initial setup of your Passport, comparisons between Passport Founders Edition and Passport Batch 2, and how to use the Whirlpool feature to CoinJoin directly to your cold storage device. 
+This concludes the select feature section. In this guide you were introduced to Passport and shown the unboxing, supply chain validation, how to download the Envoy companion app, how to update the firmware, initial setup of your Passport, comparisons between Passport Founders Edition and Passport Batch 2, and how to use the Whirlpool feature to CoinJoin directly to your cold storage device. 
