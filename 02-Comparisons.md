@@ -1,5 +1,5 @@
 # Comparing the Founders Edition and Batch 2
-Passport Batch 2 offer many upgrades over Passport Founders Edition. The following section describes these upgrades.
+Passport Batch 2 offers many upgrades over Passport Founders Edition. The following section describes these upgrades.
 
 ## Dimensions
 Passport Founders Edition measures: 100mm long x 35mm wide x 23mm thick. 
