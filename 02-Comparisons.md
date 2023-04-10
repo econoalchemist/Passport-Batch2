@@ -35,7 +35,7 @@ Passport Batch 2 features a rechargeable and removable lithium ion battery with 
 </p>
 
 ## Cameras
-Passport uses the [Omnivision Cameracube](https://www.ovt.com/technologies/cameracubechip/).
+Both Passports use the [Omnivision Cameracube](https://www.ovt.com/technologies/cameracubechip/) but the camera housing is a little different between the two.
 
 <p align="center">
   <img src="assets/compare_07.jpg">
