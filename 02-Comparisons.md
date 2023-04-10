@@ -43,3 +43,5 @@ Both Passports use the [Omnivision Cameracube](https://www.ovt.com/technologies/
 
 ## Software
 Most of the menu options available on Passport Founders Edition version 1.1.0 are also available on Passport Batch 2. Some of the folder configurations are a little different but most of the options are there with the exception of signing a text file. Passport Batch 2 also introduces Extensions for Casa and Whirlpool which adds additional accounts in Passport that you can connect to. Both Passports can be connected to the Envoy app to make monitoring balances, generating receive addresses, and building transactions easier. The next firmware release for the Founders Edition will be identical to the Batch 2 firmware. 
+
+This completes the comparisons section. In the next section, you will see how to use a select feature of the Passport. 
