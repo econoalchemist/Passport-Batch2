@@ -102,7 +102,6 @@ The first step is to complete the Supply Chain Validation. This ensures that you
   <img src="assets/verify_01.png">
 </p>
 
-
 - Power on your Passport.
 - When prompted for how you would like to set up your Passport, select `Envoy App`.
 - Then select `Continue on Envoy`.
@@ -194,7 +193,7 @@ The seed phrase is a human readable representation of the initial entropy used t
   <img src="assets/seed_05.jpg">
 </p>
 
-Now you have an encrypted backup of your seed phrase to keep safe and secure in case you need to recover your wallet on another Passport in the future. Ensure you keep the backup code safe and secure as well because it is required to decrypt your backup. Storing the microSD card and the backup code in the same location kind of defeats the purpose since if they are found then an adversary could steal your bitcoin. If you want to save a plain text copy of your seed phrase so that you have the option to recover your wallet using the BIP39 word entry on a number of other wallets, you can fill these in on the included note-card as well. From the Passport home screen, navigate to the left for the Settings menu. Then navigate to `Advanced` > `View Seed Words`, and then acknowledge the warning prompt that you are about to display sensitive information.    
+Now you have an encrypted backup of your seed phrase to keep safe and secure in case you need to recover your wallet on another Passport in the future. Ensure you keep the backup code safe and secure as well because it is required to decrypt your backup. The encrypted backup also includes all device settings, accounts, account labels, etc. You can see all the details [here](https://foundationdevices.com/2023/01/why-we-love-encrypted-microsd-backups/). Storing the microSD card and the backup code in the same location kind of defeats the purpose since if they are found then an adversary could steal your bitcoin. If you want to save a plain text copy of your seed phrase so that you have the option to recover your wallet using the BIP39 word entry on a number of other wallets, you can fill these in on the included note-card as well. From the Passport home screen, navigate to the left for the Settings menu. Then navigate to `Advanced` > `View Seed Words`, and then acknowledge the warning prompt that you are about to display sensitive information.    
 
 ## Connecting to Envoy
 Having your Passport connected to your Envoy app enables you to retrieve the latest firmware, watch your account balances, connect to your own instance of an Electrum server, communicate over Tor, and more. Your private key information never leaves the Passport, only the public information is shared with the Envoy app so that it can calculate receive addresses and monitor balances.  
@@ -246,7 +245,7 @@ Make sure you have your microSD card and included adaptor ready to plug into you
 - On the next screen, press `Continue` to confirm you want to update the firmware. 
 - On the next screen press `Continue` to confirm you have connected the microSD card. 
 - Then Envoy will ask you where you would like to save the firmware. Navigate to the microSD card folder location. 
-- Then press `Save`. 
+- Then press `Save`. Be sure to give your Android device a moment to finish writing to the microSD card. If you have issues with the firmware file not being written in it's entirety, delete the damaged file from the microSD card, save the firmware file again, then after pressing `Save` manually eject the microSD card from the notifications drop-down to force Android to flush to disk.   
 - That should save the firmware file to your microSD card and bring you back to the Envoy app. Press `Finished` to return to the home page. 
 
 <p align="center">
