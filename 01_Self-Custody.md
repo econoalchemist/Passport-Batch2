@@ -117,7 +117,7 @@ The first step is to complete the Supply Chain Validation. This ensures that you
 - In the Envoy app, select `Continue` to initiate your mobile device's camera. 
 - Scan the QR code on the Passport with your mobile device. 
 - You should receive a notification in the Envoy app that your Passport is secure. If your device fails the Supply Chain Validation, it may have been tampered with or swapped out with a malicious device while in transit to you. In the unlikely event of a failure, contact The Foundation team via email at <kbd>hello@foundationdevices.com</kbd>. If your Passport Supply Chain Validation was successful then select `Continue` in the Envoy app.  
-- On the Passport Batch 2, select `Passed`. 
+- On the Passport, select `Passed`. 
 
 <p align="center">
   <img src="assets/verify_03.png">
