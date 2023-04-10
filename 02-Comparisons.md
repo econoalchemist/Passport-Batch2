@@ -27,7 +27,7 @@ The screen on the Passport Batch 2 is a high-resolution, color IPS display bound
 </p> 
 
 ## Batteries
-Passport Batch 2 features a rechargeable and removable lithium ion battery with a 1,200 mAh rating. The Passport Founders Edition features two AAA batteries. The lithium ion battery has a much greater battery life. Both Passports feature a removable magnetic back piece to quickly access the batteries. 
+Passport Batch 2 features a rechargeable and removable lithium ion battery with a 1,200 mAh rating. The Passport Founders Edition features two AAA batteries. The lithium ion battery has a much greater battery life and an industry standard form factor known as "BL-5C" and it can be obtained from many different online vendors for less that $10 USD. Both Passports feature a removable magnetic back piece to quickly access the batteries. 
 
 <p align="center">
   <img src="assets/compare_05.jpg">
@@ -35,11 +35,11 @@ Passport Batch 2 features a rechargeable and removable lithium ion battery with 
 </p>
 
 ## Cameras
-Passport Batch 2 got an upgraded camera, the [Omnivision Cameracube](https://www.ovt.com/technologies/cameracubechip/), which makes scanning QR codes easier than the lesser quality camera on the Passport Founders Edition. 
+Passport uses the [Omnivision Cameracube](https://www.ovt.com/technologies/cameracubechip/).
 
 <p align="center">
   <img src="assets/compare_07.jpg">
 </p>
 
 ## Software
-Most of the menu options available on Passport Founders Edition are also available on Passport Batch 2. Some of the folder configurations are a little different but most of the options are there with the exception of signing a text file. Passport Batch 2 also introduces Extensions for Casa and Whirlpool which adds additional accounts in Passport that you can connect to. Both Passports can be connected to the Envoy app to make monitoring balances, generating receive addresses, and building transactions easier. 
+Most of the menu options available on Passport Founders Edition version 1.1.0 are also available on Passport Batch 2. Some of the folder configurations are a little different but most of the options are there with the exception of signing a text file. Passport Batch 2 also introduces Extensions for Casa and Whirlpool which adds additional accounts in Passport that you can connect to. Both Passports can be connected to the Envoy app to make monitoring balances, generating receive addresses, and building transactions easier. The next firmware release for the Founders Edition will be identical to the Batch 2 firmware. 
