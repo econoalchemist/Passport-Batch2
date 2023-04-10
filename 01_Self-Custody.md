@@ -30,7 +30,7 @@ Inside the device box you will find:
 - USB-C to USB-C charging cable
 - microSD to Android port adaptor
 - microSD to iPhone port adaptor
-- Getting started litirature
+- Getting started literature
 - Seed phrase and backup code card
 - Foundation Stickers
 
