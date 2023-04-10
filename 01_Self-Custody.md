@@ -44,7 +44,7 @@ Inside the device box you will find:
 </p>  
 
 ## Downloading Envoy
-[Envoy](https://foundationdevices.com/envoy/) is a companion app for the Passport Batch 2. This app is available for iPhone or Android and enables a secure guided setup experience for your Passport Batch 2. You can also use it to install the latest firmware updates from your mobile device using the included microSD adapters. The security validation to ensure your Passport Batch 2 has not been tampered with in transit can also be completed from the Envoy app. There is a beginner-friendly Bitcoin wallet built into Envoy that enables you to easily receive bitcoin to your Passport Batch 2. You can also create transactions in Envoy ready to sign with your Passport Batch 2 using the QR code communications, all while your private keys remain secured on the Passport Batch 2. Envoy connects to the internet via [Tor](https://www.torproject.org/) by default. 
+[Envoy](https://foundationdevices.com/envoy/) is an Open Source companion app for Passport. This app is available for iPhone or Android and enables a secure guided setup experience for your Passport. While it makes for a convenient companion app, it is not required to use Passport. You can use any wallet you want to monitor balances, build transactions, or generate receive addresses. With Envoy, you can also install the latest firmware updates from your mobile device using the included microSD adapters. The security validation to ensure your Passport has not been tampered with in transit can also be completed from the Envoy app. There is a beginner-friendly Bitcoin wallet built into Envoy that enables you to easily receive bitcoin to your Passport. You can also create transactions in Envoy ready to sign with your Passport using the QR code communications, all while your private keys remain secured on the Passport. Envoy connects to the internet via [Tor](https://www.torproject.org/) by default. 
 
 This guide will cover how to download Envoy from the F-Droid repository on an Android mobile device. The cool thing about F-Droid is that you can get apps from it without the need for a Google Play Store or Apple App Store account. The [F-Droid security model](https://f-droid.org/docs/Security_Model/) enforces that all apps have a valid signature over the entire contents of the Android Package (APK file) so you know you are getting the app intended for you by the developers who control the signing key of the repository you are using. 
 
@@ -166,8 +166,10 @@ The seed phrase is a human readable representation of the initial entropy used t
 </p>
 
 - Next, Passport will create and encrypted backup of your seed phrase and prepare to save it to the included microSD card. Select the `>` arrow.
-- Part of having an encrypted backup is having the code to decrypt it. Passport Batch 2 will generate this code and it will be required to to open your backup file in the future. Select the `>` arrow.  
-- Your Passport Batch 2 came with a perforated note card, on one side of the perforation is space to write down your seed words and on the other side is space to write down your code for the encrypted backup. Foundation recommends writing down the backup code on this note-card and it is considered a safe procedure because physical access to the microSD card is required. Consider storing the note-card and the microSD card is separate locations. Select the `>` arrow. 
+- Part of having an encrypted backup is having the code to decrypt it. Passport will generate this code and it will be required to to open your backup file in the future. Select the `>` arrow.  
+- Your Passport came with a perforated note card, on one side of the perforation is space to write down your seed words and on the other side is space to write down your code for the encrypted backup. Foundation recommends writing down the backup code on this note-card and it is considered a safe procedure because physical access to the microSD card is required. Consider storing the note-card and the microSD card is separate locations. Select the `>` arrow. 
+
+* For a more in-depth article on encrypted backups, check out [this](https://foundationdevices.com/2023/01/why-we-love-encrypted-microsd-backups/) resource. 
 
 <p align="center">
   <img src="assets/seed_02.jpg">
